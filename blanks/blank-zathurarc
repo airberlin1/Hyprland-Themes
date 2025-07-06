@@ -1,0 +1,8 @@
+set selection-clipboard clipboard
+set recolor true
+set recolor-darkcolor "%%%light:rgba:opacity:1%%%"
+set recolor-lightcolor "rgba(0, 0, 0, 0)"
+set default-bg "%%%dark:rgba:opacity:0.72%%%"
+set recolor-keephue
+set highlight-color "%%%highlighted:rgba:opacity:0.72%%%"
+set highlight-active-color "%%%active:rgba:opacity:0.72%%%"

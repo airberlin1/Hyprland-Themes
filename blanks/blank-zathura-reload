@@ -1,0 +1,4 @@
+set recolor-darkcolor "%%%light:rgba:opacity:1%%%"
+set default-bg "%%%dark:rgba:opacity:0.72%%%"
+set highlight-color "%%%highlighted:rgba:opacity:0.72%%%"
+set highlight-active-color "%%%active:rgba:opacity:0.72%%%"

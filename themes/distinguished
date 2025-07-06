@@ -1,0 +1,8 @@
+dark: rgb,0,0,0
+light: rgb,255,255,255
+emacs_theme: distinguished
+highlighted: rgb,150,150,150
+active: rgb,100,100,100
+background_movie_left: 857183436/elise.mp4
+background_movie_right: 1289542114/anni2.mp4
+monospace_font: Hack

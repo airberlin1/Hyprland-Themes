@@ -1,0 +1,8 @@
+font_size 13.0
+foreground #ffffff
+background #000000
+background_opacity 0.6
+cursor none
+cursor_text_color background
+map ctrl+q quit
+font_family family="Hack"

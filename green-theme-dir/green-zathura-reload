@@ -1,0 +1,4 @@
+set recolor-darkcolor "rgba(170, 255, 170, 1)"
+set default-bg "rgba(0, 30, 0, 0.72)"
+set highlight-color "rgba(35, 35, 35, 0.72)"
+set highlight-active-color "rgba(0, 10, 0, 0.72)"

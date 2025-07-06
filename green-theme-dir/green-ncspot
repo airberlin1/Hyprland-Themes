@@ -1,0 +1,21 @@
+[keybindings]
+"Ctrl+j" = "reload"
+
+[theme]
+background = "#00000000"
+primary = "#aaffaa"
+secondary = "light black"
+title = "#aaffaa"
+playing = "#aaffaa"
+playing_selected = "#aaffaa"
+playing_bg = "black"
+highlight = "light white"
+highlight_bg = "#484848"
+error = "light white"
+error_bg = "red"
+statusbar = "black"
+statusbar_progress = "green"
+statusbar_bg = "green"
+cmdline = "light white"
+cmdline_bg = "black"
+search_match = "light red"
