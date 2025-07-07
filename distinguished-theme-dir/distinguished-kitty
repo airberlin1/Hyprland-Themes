@@ -6,3 +6,4 @@ cursor none
 cursor_text_color background
 map ctrl+q quit
 font_family family="Hack"
+close_on_child_death yes
