@@ -13,7 +13,7 @@ WALLPAPER_DIR = "/mnt/win/Program Files (x86)/Steam/steamapps/workshop/content/4
 
 THEME_DIR = "/home/air_berlin/Theme/"
 BLANK_NAME = "blank"
-NEEDED_CONFIGS = ["-kitty", "-ncspot", "-waybar-style.css", "-zathurarc", "-left-wallpaper", "-right-wallpaper", "-emacs-theme", "-dark", "-light", "-font", "-discord", "-zathura-reload"]
+NEEDED_CONFIGS = ["-mb-col", "-kitty", "-ncspot", "-waybar-style.css", "-zathurarc", "-left-wallpaper", "-right-wallpaper", "-emacs-theme", "-dark", "-light", "-font", "-discord", "-zathura-reload"]
 
 color_formats={
     "rgba": lambda r, g, b, op : f"rgba({r}, {g}, {b}, {op})",
@@ -24,6 +24,7 @@ color_formats={
     "hlsh": lambda r, g, b, op : f"{colorsys.rgb_to_hls(r / 255, g / 255, b / 255)[0] * 360}",
     "hlss": lambda r, g, b, op : f"{colorsys.rgb_to_hls(r / 255, g / 255, b / 255)[2]}",
     "hlsl": lambda r, g, b, op : f"{colorsys.rgb_to_hls(r / 255, g / 255, b / 255)[1]}",
+    "grb": lambda r, g, b, op : f"{to_hex(r):02}{to_hex(g):02}{to_hex(b):02}",
 }
 
 

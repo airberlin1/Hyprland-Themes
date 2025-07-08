@@ -22,6 +22,7 @@ emacs_theme="$(cat $dir_with_configs/$theme-emacs-theme)"
 
 light="$(cat $dir_with_configs/$theme-light)"
 dark="$(cat $dir_with_configs/$theme-dark)"
+mainboard_col="$(cat $dir_with_configs/$theme-mb-col)"
 
 waybar_style=$theme-waybar-style.css
 zathura_config=$theme-zathurarc
@@ -67,3 +68,8 @@ done
 # ncspot
 cp $dir_with_configs/$ncspot_config /home/air_berlin/.config/ncspot/config.toml
 hyprctl dispatch sendshortcut Control,j,title:Spotify
+
+# surrounding hardware
+# for some reason, red and green are flipped on mainboard
+# this has to possible adjusted when connecting other rgb hardware in the future
+openrgb -m breathing -c $mainboard_col
